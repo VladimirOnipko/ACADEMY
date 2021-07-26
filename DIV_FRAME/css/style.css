@@ -1,0 +1,17 @@
+.container {
+    background:
+    url('/images/left_top.png') no-repeat left top,
+    url('/images/right_top.png') no-repeat right top,
+    url('/images/left_bottom.png') no-repeat left bottom,
+    url('/images/right_bottom.png') no-repeat right bottom,
+    url('/images/line1.png') repeat-y left,
+    url('/images/line4.png') repeat-y right,
+    url('/images/line2.png') repeat-x,
+    url('/images/line3.png')repeat-x bottom;
+}
+
+.text {
+    white-space: pre-wrap;
+    padding: 30px 50px;
+    font-size: 2em;
+}
