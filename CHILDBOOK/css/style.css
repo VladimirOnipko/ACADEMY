@@ -1,0 +1,38 @@
+.container {
+    margin: 20px;
+
+}
+
+.text_car {
+    white-space: pre-wrap;
+}
+
+.photo_car {
+    width: 450px;
+}
+
+.section {
+    margin: 20px;
+}
+
+.train_img {
+    width: 450px;
+}
+
+.train {
+    white-space: pre-wrap;
+}
+
+.section_pallet {
+    margin: 20px;
+}
+
+.palletka {
+    width: 450px;
+}
+
+.paletka_hudojnika {
+    white-space: pre-wrap;
+    margin: 20px 20px;
+}
+
