@@ -1,0 +1,30 @@
+h1 {
+    color: black;
+}
+
+.date {
+    color: green;
+}
+
+.world_champion {
+    color: red;
+}
+
+.information::before {
+    content: url(/images/extref.png);
+}
+
+.text {
+    font-style: italic;
+    color: skyblue;
+}
+
+.bottom {
+    color: blue;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
