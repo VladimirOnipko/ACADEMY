@@ -1,0 +1,19 @@
+.stars {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+}
+
+.star {
+   width: 64px;
+   height: 64px;
+   background: url("/img/star.png") no-repeat;
+   cursor: pointer;
+}
+
+
+.stars .star:hover,
+.stars .star:hover ~ .star {
+   background: url("/img/star2.png");
+}
+
