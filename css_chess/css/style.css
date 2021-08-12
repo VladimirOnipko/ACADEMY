@@ -1,0 +1,54 @@
+.chess {
+    margin: 50px;
+}
+
+table.chess {
+    border-collapse: collapse;
+}
+
+.chess td {
+    width: 50px;
+    height: 50px;
+    border: solid gray 1px;
+}
+
+
+.chess tr:first-child {
+    background: green;
+}
+
+.chess tr:last-child {
+    background: green;
+}
+
+.chess td:first-of-type {
+    background: green;
+}
+
+.chess td:last-of-type {
+    background: green;
+}
+
+.chess tr:nth-child(even) td:nth-child(even) {
+    background: black;
+}
+
+.chess tr:nth-child(odd) td:nth-child(odd) {
+    background: black;
+}
+
+.chess tr:nth-child(odd) td:nth-child(1) {
+    background:green;
+}
+
+.chess tr:nth-child(1) td:nth-child(odd) {
+    background:green;
+}
+
+.chess tr:nth-last-child(odd) td:nth-last-child(1) {
+    background:green;
+}
+
+.chess tr:nth-last-of-type(1) td:nth-last-of-type(odd) {
+    background:green;
+}

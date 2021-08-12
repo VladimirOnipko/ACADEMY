@@ -1,0 +1,40 @@
+/*В первом способе сделал через border-left, а убрал разделитель li:first-child {
+    border-left: none;
+}*/
+
+ul li {
+    display: inline;
+    border-left: 1px solid red;
+}
+
+li:first-child {
+    border-left: none;
+}
+
+a {
+    color: green;
+    padding: 0 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+/*Во втором способе сделал через span, завернул в него знак "|" и задал цвет.*/
+.links_2 {
+    display: inline;
+}
+
+span {
+    color: red;
+}
+
+/*В третям способе схоже со вторым, только красил разделитель через content: "|";
+    color: red;*/
+.links_3 li {
+    display: inline;
+    content: "|";
+    color: red;
+}
