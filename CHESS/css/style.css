@@ -1,0 +1,30 @@
+h1 {
+    color: black;
+}
+
+.date {
+    color: green;
+}
+
+.world_champion {
+    color: red;
+}
+
+.information {
+    font-weight: bold;
+    color: blue;
+}
+
+.text {
+    font-style: italic;
+    color: skyblue;
+}
+
+.bottom {
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+a {
+    text-decoration: none;
+}
